@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python Debugger: Current File",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/munnarahman/Documents/python_programming_course_udemy/section_25_oop_deck_of_cards",
+      "program": "/Users/munnarahman/Documents/python_programming_course_udemy/section_25_oop_deck_of_cards/build/Debug/outDebug"
+    }
+  ]
+}
