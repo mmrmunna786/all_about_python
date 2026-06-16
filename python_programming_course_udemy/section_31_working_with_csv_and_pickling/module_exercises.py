@@ -139,3 +139,6 @@ def delete_users( fname, lname ):
         csv_writer = writer( file )
         csv_writer.writerows( rows )
     return f"Users deleted: {count_of_deleted_users}."
+
+        
+        
