@@ -102,17 +102,17 @@ this method should raise a ValueError with the message "Only full decks can be s
 """
 
 
-# def _deal( self, num ): # single underscore indicates that this is a "private" method, meaning it should not be used outside of the class
-#     current_no_of_cards = self.count()
-#     if len( self.cards ) <= 0:
-#         return ValueError( "All cards have been dealt" )
-#     else:
-#         if current_no_of_cards > num:
-#             for i in range( 0, num ):
-#                 self.cards.pop()
-#         else:
-#             for i in range( 0, current_no_of_cards ):
-#                 self.cards.pop()
+def _deal( self, num ): # single underscore indicates that this is a "private" method, meaning it should not be used outside of the class
+    current_no_of_cards = self.count()
+    if len( self.cards ) <= 0:
+        return ValueError( "All cards have been dealt" )
+    else:
+        if current_no_of_cards > num:
+            for i in range( 0, num ):
+                self.cards.pop()
+        else:
+            for i in range( 0, current_no_of_cards ):
+                self.cards.pop()
 
 
 d = Deck()
