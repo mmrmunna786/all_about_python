@@ -1,6 +1,0 @@
-#!/Users/munnarahman/Documents/all_about_python/projects/project_1_face_detection_using_opencv/.venv/bin/python3.12
-import sys
-from numpy.f2py.f2py2e import main
-if __name__ == '__main__':
-    sys.argv[0] = sys.argv[0].removesuffix('.exe')
-    sys.exit(main())
